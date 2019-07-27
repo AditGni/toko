@@ -13,8 +13,11 @@ function isiData(b){
 		$(".hal_tambah #alamat").val(alamat)
 		$(".hal_tambah #user").val(user)
 		$(".hal_tambah #pass").val(pass)
+	} else if(b=='produk'){
+		$(".add").click()
 	}
 }
+
 function ambilData(a){
 	if(a=='pelanggan'){
 		var nama = $("#nama").val()

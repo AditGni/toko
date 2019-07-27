@@ -78,7 +78,7 @@ if($_POST['muat']){
 				<td><?= $d['berat'];?></td>
 				<td><?= $d['Ket_produk'];?></td>
 				<td>
-					<button class="btn btn-warning"><i class="fa fa-edit"></i></button>
+					<button class="btn btn-warning edit"><i class="fa fa-edit"></i></button>
 				</td>
 			</tr>
 			<?php } ?>
