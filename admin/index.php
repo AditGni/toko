@@ -36,7 +36,7 @@ mysql_select_db('dbtokoonline');
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5">TOKO INA</h1>
+          <h1 class="mb-5" id="big-title">TOKO INA</h1>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
           <form>
@@ -69,7 +69,7 @@ mysql_select_db('dbtokoonline');
   <!-- Icons Grid -->
   <section class="features-icons bg-dark text-center text-white py-5">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12" id="title">
           <h2>Pilih Menu</h2>
         </div>
         <div class="col-lg-3">
